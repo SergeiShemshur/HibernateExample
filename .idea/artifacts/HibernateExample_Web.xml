@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HibernateExample:Web">
+    <output-path>$PROJECT_DIR$/classes/artifacts/HibernateExample_Web</output-path>
+    <root id="archive" name="HibernateExample_Web.war">
+      <element id="artifact" artifact-name="HibernateExample:Web exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
